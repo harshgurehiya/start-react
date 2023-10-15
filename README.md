@@ -19,3 +19,35 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+# React Food
+
+/\*\*
+
+- Header
+- - Logo
+- - Nav Items
+- Body
+- - Search
+- -RestaurantContainer
+- - RestaurantCard
+-      - Img
+-      - Name of Res, Start Rating, cuisine, delivery time
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
+    \*/
+
+# Two types of Export/Import
+
+- Default
+
+export default Component;
+import Component from "path";
+
+- Named => used for multiple exports from single file
+
+export const Component;
+import {Component} from "path";
